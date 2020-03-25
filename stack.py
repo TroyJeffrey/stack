@@ -2,7 +2,7 @@
 # Stack
 # 03/05/2020
 
-from LinkedList import LinkedList
+from LinkedLists import LinkedList
 
 class Stack:
     def __init__(self):
@@ -15,9 +15,3 @@ class Stack:
         return self.mystack.pop()
 
 
-myList = Stack()
-myList.push(3)
-myList.push(5)
-myList.push(10)
-print(myList.pop())
-print(myList.pop())
